@@ -1,0 +1,92 @@
+<!--
+  ~ This file is part of the droidVNC distribution (https://github.com/razar-dev/VNC-android).
+  ~ Copyright © 2022 Sachindra Man Maskey.
+  ~
+  ~ This program is free software: you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation, version 3.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+  ~ General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program. If not, see <http://www.gnu.org/licenses/>.
+  -->
+
+<resources>
+    <string name="app_name">VNC</string>
+    <string name="empty_list">Server list is empty</string>
+    <string name="empty_list_disc">Click \'+\' to add server.</string>
+
+    <string name="server_add">Add server</string>
+    <string name="server_name">Name</string>
+    <string name="server_host">Host</string>
+    <string name="server_port">Port</string>
+    <string name="server_auth">Authentication</string>
+    <string name="server_auth1">None</string>
+    <string name="server_user">Username</string>
+    <string name="server_pass">Password</string>
+
+    <string name="ok">OK</string>
+    <string name="add">Add</string>
+    <string name="add_server">Add server</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_server_add">ServerAdd</string>
+    <string name="title_activity_server_view">ServerView</string>
+
+    <string name="connect">Connect</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+
+    <string name="toolbar">Remote control</string>
+
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+
+    <string name="confirm">Please confirm</string>
+    <string name="delete_connection">Delete connection?</string>
+
+    <string name="about_1">$NAME is an fast and secure open source VNC client for Android. It allows you to remotely control any device running a VNC server.</string>
+
+    <string name="name_error">Name must not be empty.</string>
+    <string name="host_error">The value you entered is not valid. Only IP or URL addresses are allowed.</string>
+    <string name="port_error">Port out of range 0–65353.</string>
+    <string name="not_safe">IT\'S NOT SAFE! The master password is not set. \nPassword cannot encrypt.</string>
+    <string name="title_activity_panic_responder">PanicResponderActivity</string>
+    <string name="delete_crash_report">Delete crash report?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="other_lic">Third-party licenses</string>
+
+    <string name="error_title">Oh no! Something has gone wrong…</string>
+
+    <string name="connection_title">PLEAS WAIT\n\nCONNECTION</string>
+
+    <string name="net_error">It looks like there was a problem, the connection was not established.</string>
+
+    <string name="encoding">Encoding</string>
+    <string name="quality">Quality</string>
+    <string name="compress">Compress</string>
+    <string name="high">High</string>
+    <string name="normal">Normal</string>
+    <string name="low">Low</string>
+
+    <string-array name="level">
+        <item>@string/high</item>
+        <item>@string/normal</item>
+        <item>@string/low</item>
+    </string-array>
+
+    <string name="sec_type0">None</string>
+    <string name="sec_type1">VNC Authentication</string>
+
+    <string name="panic_oh">Oh, no!</string>
+    <string name="panic_wrong">Something went wrong…</string>
+    <string name="panic_what">What happened:</string>
+    <string name="panic_crash">App crash</string>
+    <string name="panic_info">Info:</string>
+    <string name="panic_send">SEND</string>
+</resources>
